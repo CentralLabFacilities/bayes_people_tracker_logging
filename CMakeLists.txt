@@ -9,7 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_filters
   message_generation
-  mongodb_store
+  #mongodb_store
   rospy
   #mdl_people_tracker
   tf
@@ -42,7 +42,7 @@ catkin_package(
   CATKIN_DEPENDS
     bayes_people_tracker
     geometry_msgs
-    mongodb_store
+    #mongodb_store
     #mdl_people_tracker
     tf
     #upper_body_detector
